@@ -1,0 +1,50 @@
+---
+title: "Introducción R para las Ciencias Sociales"
+description: |
+  
+site: distill::distill_article
+source_url: true
+author:
+  - name: González-Santa Cruz, A. 
+    affiliation: |
+      CISS, Universidad Mayor, Chile; Investigador Joven, Núcleo Milenio nDP;
+      Estudiante Doctorado en Salud Pública, Universidad de Chile
+    orcid_id: 0000-0002-5166-9121
+  - name: Ruiz-Tagle Maturana, J.A. 
+    affiliation: |
+      Docente Fundación Instituto Profesional Duoc UC, Santiago, Chile; Investigador Joven, Núcleo Milenio nDP;
+      Programa de Doctorado en Políticas Públicas, Universidad Mayor, Santiago, Chile.
+    orcid_id: 0000-0002-5166-9121    
+output:
+  distill::distill_article:
+    theme: theme.css
+    code_folding: true
+    fig_height: 6
+    fig_width: 8
+    toc: yes
+    toc_depth: 5
+    toc_float: yes
+    output_dir: "docs"
+  toc_float:
+    collapsed: false
+    smooth_scroll: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+# Fecha: `r format(Sys.time(), '%d %B, %Y')`
+
+Se requiere que curse la siguiente prueba diagnóstica [aquí](https://agscl2.shinyapps.io/Taller/)
+
+Esta página está compuesta de los siguientes tópicos:
+
+- **Clase 0: Pasos para crear un proyecto** [aquí](proyecto.html)
+
+- **Clase 1: Entornos en R** [aquí](Clase-1.html)
+
+- **Clase 1.5: Nivelación** [aquí](Clase-1-5.html)
+
+- **Clase 2: Gráficos** [aquí](Clase-2.html)

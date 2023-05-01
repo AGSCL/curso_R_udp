@@ -1,0 +1,2 @@
+#Markdown: formato texto plano,  uno de los más populares en el mundo. EJ., springer statistics.
+# a diferencia de WYSIWYG (what you see is what you get, resultados en tiempo real), uno debe compilar para ver
