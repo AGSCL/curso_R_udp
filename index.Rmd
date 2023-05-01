@@ -37,14 +37,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Fecha: `r format(Sys.time(), '%d %B, %Y')`
 
-Se requiere que curse la siguiente prueba diagnóstica [aquí](https://agscl2.shinyapps.io/Taller/)
 
 Esta página está compuesta de los siguientes tópicos:
 
 - **Clase 0: Pasos para crear un proyecto** [aquí](proyecto.html)
 
-- **Clase 1: Entornos en R** [aquí](Clase-1.html)
+- **Clase 1: Introducción a R y la investigación reproducible // Recursos en línea** [aquí](Clase-1.html)
 
-- **Clase 1.5: Nivelación** [aquí](Clase-1-5.html)
-
-- **Clase 2: Gráficos** [aquí](Clase-2.html)
